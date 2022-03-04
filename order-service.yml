@@ -1,6 +1,7 @@
 spring:
   # Spring JMS Settings
   datasource:
+    url: jdbc:mysql://localhost:3306/orderservice   
     validationQuery: SELECT 1
     #Remove abandoned connection,So, new connection will be created and made available to threads which are waiting for DB connection
     removeAbandoned: true
